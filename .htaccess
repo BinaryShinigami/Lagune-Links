@@ -1,0 +1,12 @@
+RewriteEngine On
+
+RewriteRule ^/?about$ links_about.php [L]
+RewriteRule ^/?contact$ links_contact.php [L]
+RewriteRule ^/?faq$ links_faq.php [L]
+RewriteRule ^/?send_email$ email.php [L]
+RewriteRule ^/?tinify_url$ ajax_create_link.php [L]
+RewriteRule ^/?non_ajax_url_form create_link_non_ajax.php [L]
+RewriteRule ^/?d/([0-9a-zA-Z\:]+) delete_link.php?key=$1 [L]
+RewriteRule ^/?send_mail_ajax$ email_ajax.php [L]
+
+RewriteRule ^/?([0-9]+)$ redirect.php?id=$1 [L]

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lagune Links -- Tinify &amp Anonymous your Links today!!!</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="resources/css/blueprint/screen.css" type="text/css" media="screen, projection">
+        <link rel="stylesheet" href="resources/css/blueprint/print.css" type="text/css" media="print"> 
+        <!--[if lt IE 8]>
+          <link rel="stylesheet" href="resources/css/blueprint/ie.css" type="text/css" media="screen, projection">
+        <![endif]-->
+        <link rel="stylesheet" href="resources/css/links_main.css" media="screen, projection">
+        
+        <script src="/resources/scripts/jquery-1.10.2.min" type="text/javascript"></script>
+        
+        <script>
+            <!--
+            $(document).ready(function() {
+               $(success).hide(); 
+            });
+            
+            function process_request() {
+                $(success).show(350);
+            }
+            -->
+        </script>
+        
+    </head>
+    <body>
+        <div class="container fill_height">
+            
+            <div class="span-24 banner">
+                <center><a href="/"><img src="/resources/images/banner2.png" /></a></center>
+            </div>
+            <div class="span-5 fill_height">
+                <ul>
+                    <li><h3>Navigation</h3></li>
+                    <li class="nav_link"><a href="#">Home</a></li>
+                    <li class="nav_link"><a href="#">F.A.Q.</a></li>
+                    <li class="nav_link"><a href="#">About Links</a></li>
+                    <li class="nav_link"><a href="#">Contact Us</a></li>
+                </ul>
+                <ul>
+                    <li><h3>Affiliates</h3></li>
+                    <li class="nav_link"><a href="#">Lagune-Software</a></li>
+                    <li class="nav_link"><a href="#">Lagune Mail</a></li>
+                    <li class="nav_link"><a href="#">PacketUnderground</a></li>
+                    <li class="nav_link"><a href="#">Voooid</a></li>
+                </ul>
+            </div>
+            
+            <div class="span-19 last fill_height">
+                <div class="how_to_text">
+                    <p>
+                        Welcome to Links! Links is a simple to use URL shortening and anonymizing
+                        website that allows you to links users to websites without leaving them with
+                        any pesky referrers from your site! It also lets you shorten unsightly long 
+                        URLs so that you can use them easily on twitter or tell them the URL over the
+                        phone, or even write them down easily! If you have any problems please refer to 
+                        the <a href="#">F.A.Q.</a> page for common problems and solutions.
+                    </p>
+                </div>
+                <div class="ajax_results success drop_shadow" id="success">
+                     Your new Link is: <a href="#">http://links.ls/101</a>
+                </div>
+                <div class="center" id="input_form">
+                    <form action="" method="post">
+                        <label class="text">
+                            Enter URL: <input type="text" class="text drop_shadow" name="url" id="url" />
+                        </label>
+                        <noscript>
+                            <input type="submit" value="No Script Submit" />
+                        </noscript>
+                        <input type="button" value="Tinify" class="drop_shadow" onClick="process_request()" />
+                    </form>
+                </div>
+            </div>
+            <div class="span-24 footer">
+                <center>Copyright &copy 2013 Lagune Software, Shane McIntosh</center>
+            </div>
+            
+        </div>
+    </body>
+</html>
